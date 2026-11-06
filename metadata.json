@@ -1,0 +1,6 @@
+{
+  "name": "Angry Birds: 20 Stages",
+  "description": "Classic physics slingshot destruction game with 20 handcrafted stages, unique birds with special abilities, destructible materials, and star ratings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

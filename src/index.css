@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-game {
+    font-family: 'Lilita One', 'Fredoka', cursive, sans-serif;
+  }
+  .font-sniglet {
+    font-family: 'Sniglet', 'Fredoka', cursive, sans-serif;
+  }
+  .text-comic-shadow {
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .text-comic-stroke {
+    -webkit-text-stroke: 1.5px #1e293b;
+    text-shadow: 3px 4px 0px #0f172a;
+  }
+  .text-comic-stroke-lg {
+    -webkit-text-stroke: 2.5px #0f172a;
+    text-shadow: 4px 5px 0px #020617;
+  }
+  .btn-cartoon-yellow {
+    background: linear-gradient(180deg, #fde047 0%, #eab308 60%, #ca8a04 100%);
+    box-shadow: 0 6px 0 #854d0e, 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+  }
+  .btn-cartoon-yellow:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #854d0e, 0 5px 10px -3px rgba(0, 0, 0, 0.4);
+  }
+  .btn-cartoon-red {
+    background: linear-gradient(180deg, #f87171 0%, #ef4444 60%, #dc2626 100%);
+    box-shadow: 0 6px 0 #991b1b, 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+  }
+  .btn-cartoon-red:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #991b1b, 0 5px 10px -3px rgba(0, 0, 0, 0.4);
+  }
+  .btn-cartoon-green {
+    background: linear-gradient(180deg, #4ade80 0%, #22c55e 60%, #16a34a 100%);
+    box-shadow: 0 6px 0 #14532d, 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+  }
+  .btn-cartoon-green:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #14532d, 0 5px 10px -3px rgba(0, 0, 0, 0.4);
+  }
+  .btn-cartoon-blue {
+    background: linear-gradient(180deg, #60a5fa 0%, #3b82f6 60%, #2563eb 100%);
+    box-shadow: 0 6px 0 #1e3a8a, 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+  }
+  .btn-cartoon-blue:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 #1e3a8a, 0 5px 10px -3px rgba(0, 0, 0, 0.4);
+  }
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+}
